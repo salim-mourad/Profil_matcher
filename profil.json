@@ -1,0 +1,42 @@
+{
+  "nom": "Salim Ahmed MOURAD",
+  "disponible": true,
+  "langues": ["Français", "Anglais B2"],
+  "projets": [
+    {
+      "titre": "Filtre passe-bande hyperfréquence",
+      "outils": ["ADS", "Momentum", "VNA"],
+      "mots_cles": ["RF", "hyperfréquences", "microruban", "filtre", "Tchebychev", "de-embedding"]
+    },
+    {
+      "titre": "Reconnaissance d'images sur NPU",
+      "outils": ["Python", "TensorFlow Lite", "Keras", "Debix"],
+      "mots_cles": ["deep learning", "machine learning", "CNN", "CIFAR-10", "ReLU", "Adam", "inférence", "quantification", "IA embarquée"]
+    },
+    {
+      "titre": "Générateur de nombres aléatoires",
+      "outils": ["Cadence Virtuoso", "PIC18"],
+      "mots_cles": ["oscillateur en anneau", "aléatoire", "DRC", "LVS", "layout", "conception", "simulation", "composants discrets", "AIS31"]
+    },
+    {
+      "titre": "Pré-certification CE et FCC",
+      "outils": ["analyseur de spectre", "récepteur CEM", "VNA", "générateur de signal", "amplificateur", "coupleur", "sonde de puissance", "sonde de champ", "BAT-EMC"],
+      "mots_cles": ["essais CEM", "essais radio", "chambre semi-anéchoïque", "EN 300 328", "EN 300 440", "EN 301 893", "EN 301 489", "EN 55032", "EN 61000-4-2", "EN 61000-4-3", "FCC Part 15"]
+    },
+    {
+      "titre": "Microprocesseur RISC 8 bits",
+      "outils": ["ModelSim", "Synopsys", "Cadence"],
+      "mots_cles": ["VHDL", "RTL", "synthèse", "placement", "routage", "flot ASIC"]
+    },
+    {
+      "titre": "Application d'automatisation de tests",
+      "outils": ["Python", "NumPy", "PyVISA", "subprocess", "openpyxl", "matplotlib", "tkinter"],
+      "mots_cles": ["architecture MVC", "ADB", "programmation orientée objet", "SCPI", "automatisation"]
+    },
+    {
+      "titre": "Phasemètre analogique",
+      "outils": ["LTspice", "oscilloscope"],
+      "mots_cles": ["électronique analogique", "amplificateur opérationnel", "filtres analogiques", "soudure", "mesures"]
+    }
+  ]
+}
