@@ -1,17 +1,150 @@
 {
-  "essais CEM": ["essais CEM", "tests CEM", "essai CEM", "compatibilité électromagnétique", "EMC"],
-  "chambre semi-anéchoïque": ["chambre semi-anéchoïque", "chambre anéchoïque", "chambres anéchoïques"],
-  "EN 61000-4-2": ["EN 61000-4-2", "EN 61000-4"],
-  "EN 61000-4-3": ["EN 61000-4-3", "EN 61000-4"],
-  "VNA": ["VNA", "analyseur de réseau", "analyseur de réseaux"],
-  "générateur de signal": ["générateur de signal", "générateur de signaux", "générateurs de signaux", "générateurs RF"],
-  "hyperfréquences": ["hyperfréquences", "hyperfréquence", "micro-ondes"],
-  "analyseur de spectre": ["analyseur de spectre", "analyseurs de spectre"],
-  "essais radio": ["essais radio", "tests RF", "test RF", "essais RF"],
-  "mesures": ["mesures", "mesure", "outils de mesure", "équipements de mesure"],
-  "électronique analogique": ["électronique analogique", "analogique"],
-  "programmation orientée objet": ["programmation orientée objet", "POO"],
-  "filtre": ["filtre", "filtres", "filtrage"],
-  "LTspice": ["LTspice", "PSpice", "SPICE"],
-  "BAT-EMC": ["BAT-EMC", "BAT EMC"]
+  "essais CEM": [
+    "essais CEM",
+    "tests CEM",
+    "essai CEM",
+    "compatibilité électromagnétique",
+    "EMC"
+  ],
+  "chambre semi-anéchoïque": [
+    "chambre semi-anéchoïque",
+    "chambre anéchoïque",
+    "chambres anéchoïques"
+  ],
+  "EN 61000-4-2": [
+    "EN 61000-4-2",
+    "EN 61000-4"
+  ],
+  "EN 61000-4-3": [
+    "EN 61000-4-3",
+    "EN 61000-4"
+  ],
+  "VNA": [
+    "VNA",
+    "analyseur de réseau",
+    "analyseur de réseaux"
+  ],
+  "générateur de signal": [
+    "générateur de signal",
+    "générateur de signaux",
+    "générateurs de signaux",
+    "générateurs RF"
+  ],
+  "hyperfréquences": [
+    "hyperfréquences",
+    "hyperfréquence",
+    "micro-ondes"
+  ],
+  "analyseur de spectre": [
+    "analyseur de spectre",
+    "analyseurs de spectre"
+  ],
+  "essais radio": [
+    "essais radio",
+    "tests RF",
+    "test RF",
+    "essais RF"
+  ],
+  "mesures": [
+    "mesures",
+    "mesure",
+    "outils de mesure",
+    "équipements de mesure"
+  ],
+  "électronique analogique": [
+    "électronique analogique",
+    "analogique"
+  ],
+  "programmation orientée objet": [
+    "programmation orientée objet",
+    "POO"
+  ],
+  "filtre": [
+    "filtre",
+    "filtres",
+    "filtrage"
+  ],
+  "LTspice": [
+    "LTspice",
+    "PSpice",
+    "SPICE"
+  ],
+  "BAT-EMC": [
+    "BAT-EMC",
+    "BAT EMC"
+  ],
+  "microcontrôleur": [
+    "microcontrôleur",
+    "microcontrôleurs"
+  ],
+  "PCB": [
+    "PCB",
+    "circuit imprimé",
+    "cartes électroniques",
+    "carte électronique"
+  ],
+  "Wi-Fi": [
+    "Wi-Fi",
+    "WiFi"
+  ],
+  "routage": [
+    "routage",
+    "routage PCB"
+  ],
+  "schématique": [
+    "schématique",
+    "schémas électroniques",
+    "schéma électronique"
+  ],
+  "banc de test": [
+    "banc de test",
+    "bancs de test",
+    "banc d'essai",
+    "bancs d'essais"
+  ],
+  "rapports techniques": [
+    "rapports techniques",
+    "rapport technique",
+    "rapports d'essais",
+    "documentation technique"
+  ],
+  "logiciel embarqué": [
+    "logiciel embarqué",
+    "logiciels embarqués",
+    "programmation embarquée",
+    "firmware"
+  ],
+  "systèmes embarqués": [
+    "systèmes embarqués",
+    "système embarqué",
+    "systèmes électroniques embarqués"
+  ],
+  "AMDEC": [
+    "AMDEC",
+    "FMEA"
+  ],
+  "anglais technique": [
+    "anglais technique",
+    "anglais"
+  ],
+  "émissions conduites": [
+    "émissions conduites",
+    "rayonnées/conduites"
+  ],
+  "5 Why": [
+    "5 Why",
+    "5 Whys"
+  ],
+  "oscillateurs": [
+    "oscillateurs",
+    "oscillateur"
+  ],
+  "caméra thermique": [
+    "caméra thermique",
+    "camera thermique"
+  ],
+  "procédures de test": [
+    "procédures de test",
+    "protocoles d'essai"
+  ]
 }

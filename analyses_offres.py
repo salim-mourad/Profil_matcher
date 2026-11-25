@@ -1,60 +1,82 @@
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 
 def contient(texte, mot):
-    """Renvoie True si `mot` apparaît dans `texte` comme mot entier (sans tenir compte des majuscules)."""
-    # (?<!\w) : pas de lettre/chiffre juste avant ; (?!\w) : pas de lettre/chiffre juste après
+    """True si `mot` apparaît dans `texte` comme mot entier (majuscules ignorées)."""
     motif = r"(?<!\w)" + re.escape(mot) + r"(?!\w)"
     return re.search(motif, texte, re.IGNORECASE) is not None
 
 
-# ------------------------------------------------------------
-# 1. Charger le profil et le dictionnaire de synonymes
-# ------------------------------------------------------------
-with open("profil.json", encoding="utf-8") as f:
-    profil = json.load(f)
+def charger(nom):
+    with open(nom, encoding="utf-8") as f:
+        return json.load(f)
 
-with open("synonymes.json", encoding="utf-8") as f:
-    synonymes = json.load(f)
 
 # ------------------------------------------------------------
-# 2. Rassembler tous les mots-clés du profil (sans doublons)
+# 1. Charger les données
 # ------------------------------------------------------------
-mes_mots = []
+profil = charger("profil.json")
+synonymes = charger("synonymes.json")
+referentiel = charger("referentiel.json")
+
+# Mes compétences (outils + mots-clés de tous les projets), sans doublons
+mes_mots = set()
 for projet in profil["projets"]:
-    mes_mots.extend(projet["outils"])
-    mes_mots.extend(projet["mots_cles"])
-mes_mots = sorted(set(mes_mots))
-print("Mots-clés dans mon profil :", len(mes_mots))
-print()
+    mes_mots.update(projet["outils"])
+    mes_mots.update(projet["mots_cles"])
+
+# Toutes les compétences que l'on sait reconnaître = les miennes + celles du marché
+vocabulaire = sorted(mes_mots | set(referentiel["competences_marche"]))
+
+# Poids : un mot générique compte peu, un mot technique compte pleinement
+generiques = set(referentiel["generiques"])
+def poids(mot):
+    return 0.2 if mot in generiques else 1.0
+
 
 # ------------------------------------------------------------
-# 3. Analyser chaque offre et garder les résultats dans une liste
+# 2. Analyser chaque offre
 # ------------------------------------------------------------
 resultats = []
+demandes = Counter()          # combien d'offres demandent chaque compétence
+
 for fichier in sorted(Path("offres").glob("*.txt")):
     texte = fichier.read_text(encoding="utf-8")
     titre = texte.splitlines()[0]
 
-    trouves = []
-    for mot in mes_mots:
-        # toutes les écritures possibles du mot ; s'il n'a pas de synonymes, juste lui-même
-        variantes = synonymes.get(mot, [mot])
-        # any(...) vaut True si AU MOINS UNE variante est présente dans le texte
-        if any(contient(texte, v) for v in variantes):
-            trouves.append(mot)
+    # compétences demandées par l'offre (parmi celles qu'on sait reconnaître)
+    demande = [m for m in vocabulaire
+               if any(contient(texte, v) for v in synonymes.get(m, [m]))]
+    demandes.update(demande)
 
-    resultats.append({"fichier": fichier.name, "titre": titre, "trouves": trouves})
+    acquis = [m for m in demande if m in mes_mots]
+    manquants = [m for m in demande if m not in mes_mots]
+
+    # score = part pondérée des compétences demandées que je possède
+    total = sum(poids(m) for m in demande)
+    score = 100 * sum(poids(m) for m in acquis) / total if total else 0
+
+    resultats.append({"titre": titre, "fichier": fichier.name, "score": score,
+                      "acquis": acquis, "manquants": manquants})
+
 
 # ------------------------------------------------------------
-# 4. Afficher les offres de la meilleure à la moins bonne
+# 3. Afficher le classement
 # ------------------------------------------------------------
-# key=... : on trie selon le nombre de mots trouvés ; reverse=True : du plus grand au plus petit
-resultats = sorted(resultats, key=lambda r: len(r["trouves"]), reverse=True)
-
-for r in resultats:
-    print(f"{len(r['trouves']):>2} | {r['titre']}  ({r['fichier']})")
-    print(f"     {', '.join(r['trouves'])}")
+print("=== CLASSEMENT DES OFFRES ===\n")
+for r in sorted(resultats, key=lambda r: r["score"], reverse=True):
+    print(f"{r['score']:5.0f} % | {r['titre']}  ({r['fichier']})")
+    print(f"        ✔ {', '.join(r['acquis']) or '-'}")
+    print(f"        ✘ {', '.join(r['manquants']) or '-'}")
     print()
+
+# ------------------------------------------------------------
+# 4. Vue du marché : compétences les plus demandées
+# ------------------------------------------------------------
+print("=== COMPÉTENCES LES PLUS DEMANDÉES ===\n")
+for mot, n in demandes.most_common(15):
+    etat = "✔ j'ai" if mot in mes_mots else "✘ à mettre en avant ou à acquérir"
+    print(f"{n:>2} offre(s) | {mot:<25} {etat}")

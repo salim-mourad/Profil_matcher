@@ -1,0 +1,16 @@
+{
+  "generiques": ["conception", "simulation", "mesures", "automatisation"],
+  "competences_marche": [
+    "Altium", "KiCad", "Zuken", "PCB", "routage", "schématique", "Gerber",
+    "SPI", "I2C", "UART", "CAN", "Ethernet", "USB", "Bluetooth", "BLE", "Wi-Fi",
+    "microcontrôleur", "firmware", "logiciel embarqué", "systèmes embarqués", "FPGA",
+    "oscilloscope", "multimètre", "analyseur logique", "banc de test", "caméra thermique",
+    "paramètres S", "adaptation d'impédance", "amplification", "oscillateurs", "mélangeurs",
+    "AWR", "CST", "HFSS", "FEKO", "simulation électromagnétique",
+    "foudre", "DO-160", "MIL-STD-461", "émissions conduites", "immunité",
+    "AMDEC", "FMEA", "sûreté de fonctionnement", "fiabilité", "8D", "Ishikawa", "5 Why",
+    "ISO 26262", "EN 61508", "EN 50129",
+    "rapports techniques", "procédures de test", "métrologie", "incertitudes",
+    "anglais technique", "Android", "iOS", "impression 3D"
+  ]
+}
