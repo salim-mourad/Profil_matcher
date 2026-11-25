@@ -1,0 +1,19 @@
+POSTE : Ingénieur-e d'Étude Cem H/F
+DESCRIPTION :
+Vous souhaitez contribuer à la fiabilité et à l'innovation des systèmes propulsifs dans un environnement stimulant et en pleine évolution technologique ? Rejoignez les équipes de la Direction Technique de Safran Aircraft Engines, au sein du service Compatibilité Électromagnétique (CEM) et Systèmes Électriques.
+
+En tant qu'ingénieur d'études, vous interviendrez sur un périmètre étendu allant du soutien en production jusqu'à l'intégration des nouvelles technologies, en lien avec les enjeux croissants de puissance, de tension, et de robustesse électromagnétique.
+
+Vos principales missions seront de :
+- Analyser les impacts des évolutions de définition (équipements, interfaces, réparations) sur le comportement électrique des moteurs, en particulier LEAP.
+- Étudier et instruire les dérogations techniques, en évaluant les conséquences CEM/foudre et en assurant leur validation technique.
+- Participer à la convergence technique avec les architectes système, les avionneurs et les fournisseurs pour intégrer les exigences CEM et foudre dès les phases amont.
+- Contribuer à la rédaction et à l'application des règles de conception électrique, en tenant compte des retours d'expérience en production, en essai et en service.
+- Participer à la préparation et au suivi d'essais CEM et foudre, sur bancs ou installations spécifiques, pour valider la tenue des systèmes électriques.
+- Prendre part à la capitalisation technique, à l'amélioration continue des pratiques, et à la veille technologique sur les problématiques d'arcs électriques et de décharges partielles.
+
+PROFIL : -Ingénieur(e) diplômé(e) avec une spécialisation en systèmes électriques, électrotechnique ou électronique, vous justifiez d'une première expérience significative dans le traitement de problématiques de compatibilité électromagnétique dans un environnement industriel, idéalement aéronautique.
+-Vous avez une sensibilité aux problématiques CEM et foudre, ainsi qu'un goût pour les environnements techniques complexes.
+-Rigoureux(se), curieux(se) et capable d'analyse, vous savez travailler en équipe et interagir avec différents métiers (études, production, qualité, essais).
+-Vous êtes à l'aise avec les outils d'analyse technique (matrices d'interface, schémas, règles électriques) et êtes capable de communiquer avec clarté et synthèse, à l'oral comme à l'écrit.
+-Un niveau d'anglais technique opérationnel est requis pour échanger avec les fournisseurs, partenaires ou équipes à l'international.

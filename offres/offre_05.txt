@@ -1,0 +1,23 @@
+KN SKILLS, cabinet de recrutement spécialisé industrie et ingénierie, recherche pour son client, acteur reconnu de l'ingénierie de systèmes technologiques complexes, un Ingénieur conception électronique RF / Hyperfréquences. Poste en CDI, freelance possible.
+
+Le poste
+Vous contribuez à des projets électroniques avancés, de la conception des circuits RF à leur mise au point expérimentale, dans un environnement technique exigeant.
+
+Vos missions
+- Concevoir et dimensionner des circuits RF et des chaînes d'émission/réception.
+- Étudier l'amplification, le filtrage et l'adaptation d'impédance ; sélectionner les composants.
+- Réaliser les simulations RF et micro-ondes, puis participer au prototypage et aux essais sur banc.
+- Analyser les écarts de performance, optimiser les solutions et documenter les résultats.
+
+Compétences attendues
+- Expérience pratique de conception et mise au point de circuits RF ou micro-ondes.
+- Maîtrise d'ADS, d'AWR Microwave Office ou d'un outil équivalent.
+- Bonne connaissance des paramètres S, de l'adaptation d'impédance et des chaînes RF.
+- Pratique du VNA, de l'analyseur de spectre et des générateurs RF.
+Appréciées : cartes RF, oscillateurs, mélangeurs, simulation électromagnétique, systèmes embarqués.
+
+Votre profil
+Bac+5 en électronique, hyperfréquences ou domaine voisin. Rigueur, autonomie, sens de la résolution de problèmes, anglais technique.
+
+Informations pratiques
+Île-de-France. Déplacements ponctuels possibles. Date de démarrage à définir ensemble.

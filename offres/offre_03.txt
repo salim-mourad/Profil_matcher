@@ -1,0 +1,39 @@
+Ingénieur test et CEM 
+Nous recherchons actuellement un(e) ingénieur(e) test et CEM pour l'un de nos clients sur le secteur ferroviaire en CDI.
+
+Voici les missions suivantes :
+
+- Conception et réalisation de tests CEM : Planifier, exécuter et analyser des campagnes de tests pour évaluer la compatibilité électromagnétique des produits (émissions rayonnées/conduites, immunité, etc.).
+
+- Respect des normes et réglementations : Garantir la conformité des produits aux normes CEM (ex : EN 55032, EN 61000-4, DO-160, MIL-STD-461, etc.).
+Collaboration avec les équipes R&D : Travailler en étroite collaboration avec les ingénieurs hardware/software pour identifier et résoudre les problèmes de CEM dès la phase de conception.
+
+- Rédaction de rapports techniques : Documenter les résultats des tests, proposer des solutions correctives et rédiger des rapports pour les clients ou les autorités de certification.
+
+- Veille technologique : Suivre les évolutions des normes CEM et des méthodes de test, et proposer des améliorations des processus internes.
+Gestion de laboratoire : Superviser l'utilisation des équipements de test (chambres anéchoïques, générateurs de signaux, analyseurs de spectre, etc.) et assurer leur maintenance.
+
+Formation :
+
+- Diplôme d'ingénieur (Bac+5) en électronique, télécommunications, physique appliquée ou équivalent, avec une spécialisation en CEM.
+Une formation complémentaire en CEM (ex : DU CEM, certifications) est un plus.
+
+Expérience :
+
+- Expérience confirmée (3 ans minimum) en tests CEM, idéalement dans un environnement industriel (aéronautique, automobile, médical, etc.).
+- Expérience avec des outils de mesure CEM (ex : Rohde & Schwarz, Keysight, ETS-Lindgren, etc.) et des logiciels de simulation (ex : CST, Ansys HFSS, FEKO).
+
+Compétences techniques :
+
+- Maîtrise des normes CEM (civiles, militaires, aéronautiques, etc.).
+- Connaissance des méthodes de test (émissions, immunité, décharges électrostatiques, etc.).
+- Capacité à analyser des schémas électroniques et à proposer des solutions pour améliorer la CEM.
+- Utilisation d'outils de modélisation et simulation (un plus).
+- Connaissance des protocoles de communication (CAN, Ethernet, USB, etc.) et de leur impact sur la CEM.
+
+Compétences transverses :
+
+- Rigueur, sens de l'analyse et capacité à travailler en équipe.
+- Autonomie et réactivité pour gérer des projets sous pression.
+- Bonnes compétences rédactionnelles pour les rapports techniques.
+- Anglais technique obligatoire (normes internationales, échanges avec des clients ou fournisseurs étrangers).

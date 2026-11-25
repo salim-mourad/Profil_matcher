@@ -1,0 +1,36 @@
+Nous recherchons un Ingénieur / réparateur de cartes électroniques, vos missions :
+
+1 Diagnostic & Analyse
+Réaliser des diagnostics approfondis sur cartes électroniques (analogiques, numériques, RF, puissance, etc.)
+Utiliser des équipements de mesure : oscilloscope, multimètre, analyseur logique, générateur de signaux
+Analyser les schémas électroniques et nomenclatures (BOM)
+Identifier les composants défaillants (CMS, BGA, FPGA, microcontrôleurs.)
+Développer des programmes de test en sonde mobile/VI
+Tests par camera thermique, banc de test etc..
+
+2 Réparation & Rework
+Programmer ou reprogrammer microcontrôleurs si nécessaire
+Tester les cartes après intervention (banc de test, test fonctionnel)
+
+3 Amélioration continue
+Analyser les causes racines des pannes (méthode 8D, 5 Why, Ishikawa)
+Proposer des améliorations de conception pour augmenter la fiabilité
+Collaborer avec le bureau d'études (hardware / firmware)
+Mettre à jour la documentation technique
+
+4 Support technique
+Rédiger des rapports techniques détaillés
+
+Diplôme d'ingénieur en électronique ou équivalent (Bac+5) Ou Bac+3/5 avec forte expérience en réparation électronique
+
+Compétences techniques :
+Lecture de schémas électroniques
+Maîtrise des outils de mesure
+Connaissances en électronique analogique et numérique
+Compréhension des microcontrôleurs et bus de communication (SPI, I2C, UART, CAN)
+
+Compétences transversales :
+Esprit analytique
+Rigueur et précision
+Capacité à travailler en équipe
+Bonne rédaction technique

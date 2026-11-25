@@ -1,0 +1,54 @@
+Les missions du poste
+Travailler dans le secteur de l'énergie et des objets communicants vous attire ?
+
+Votre rôle sera donc de concevoir une carte électronique multi-couches (analogique et numérique)
+Vous ne concevez pas seulement des cartes, vous donnez vie à des expériences pour des millions de foyers.
+
+Vos Mission Principales:
+
+Choisir les composants en respectant les contraintes (CEM, thermiques, consommation).
+Effectuer le routage ou le suivi de routage.
+Effectuer la schématique.
+Qualifier la carte et ses interfaces (alimentation, SPI, I2C, Ethernet, GPIO, etc.).
+L'environnement technique:
+
+Outils de conception : Altium ou Cadence
+Bus de communication : WiFi et Ethernet.
+Le profil recherché
+Ce poste est fait pour vous si...
+
+Vous êtes diplômé.e d'un Bac +5 en électronique avec une solide expérience en conception.
+Vous maîtrisez les outils Altium ou Cadence.
+Vous maîtrisez impérativement les bus WiFi et Ethernet.
+Vous êtes reconnu.e pour votre rigueur et votre précision.
+Ce poste n'est PAS fait pour vous si...
+
+Vous recherchez un travail purement théorique en laboratoire.
+Vous n'êtes pas à l'aise avec les contraintes industrielles fortes (normes strictes, coûts, délais).
+
+Infos complémentaires
+Les plus de la vie chez IT Link :
+
+Titre Restaurant : vous bénéficiez de titres restaurant d'un montant quotidien de 10 euros, dont l'entreprise prend en charge 60%.
+
+Transports 100% pris en charge : nous prenons en charge à 100% vos abonnements de transport en commun, vous permettant ainsi d'alléger vos dépenses et de voyager sereinement. Un avantage économique et éco-responsable pour faciliter votre quotidien tout en soutenant la mobilité durable.
+
+Santé : un partenariat santé et bien-être avec Alan, mutuelle digitale et performante, prise en charge à 75% par IT Link pour le salarié et ses enfants. Outre une couverture très large, Alan offre à ses bénéficiaires de nombreux services dont l'accès à des professionnels de santé en-dehors des horaires habituels de consultation.
+
+Accord collectif télétravail : un accord télétravail signé avec les représentants du personnel encadre la pratique du travail à distance, en favorisant la flexibilité tout en assurant une organisation harmonieuse. L'accord prévoit le versement d'une indemnité de télétravail et la participation d'IT Link à l'achat d'équipement de bureau
+
+Congés supplémentaires : vous profitez d'un congé supplémentaire tous les 4 ans en reconnaissance de votre engagement au sein de l'entreprise, de jours pour prendre soin de vos enfants malades et de jours non travaillés (JNT) définis annuellement.
+
+CSE (Comité Social et Économique) : vous avez accès, sans condition d'ancienneté, aux actions sociales et culturelles proposées par le CSE, qui incluent des réductions pour des loisirs, des activités culturelles, des événements ou encore des bons d'achat.
+
+Places en crèche : nous réservons chaque année 10 berceaux en crèche pour favoriser le retour en activité de nos Linkers.
+
+Action Logement : les dispositifs proposés par Action Logement vous permettent de bénéficier d'aides pour la recherche d'un logement, le financement de travaux ou d'un dépôt de garantie, une prise en charge partielle des frais de déménagement, ou encore des prêts à taux avantageux pour l'achat d'un logement.
+
+Blablacar Daily : grâce à la solution de covoiturage "domicile-travail" avec Blablacar Daily, vous pouvez facilement organiser vos trajets quotidiens avec vos collègues. Cette plateforme pratique et éco-responsable vous permet de partager vos déplacements, de réduire vos coûts et votre empreinte carbone tout en optimisant votre temps.
+
+Forfait Mobilité Durable : en tant que collaborateur, vous bénéficiez du Forfait Mobilité Durable, d'un montant de 550 euros par an. Ce dispositif vous permet de financer l'achat de solutions de mobilité écologiques, telles qu'un vélo, un vélo électrique ou tout autre moyen de transport respectueux de l'environnement.
+
+Handicap : des outils de sensibilisation sont mis en place ainsi que l'accès à tout moment à notre référente handicap.
+
+Générosité : rejoignez les Linkers qui participent à l'arrondi sur salaire avec abondeme

@@ -1,0 +1,42 @@
+SECTOR est un groupe français indépendant référent dans la maîtrise des risques depuis plus de 35 ans.
+Notre mission est d'accompagner nos clients vers des systèmes performants et sûrs pour l'Humain et l'Environnement. Nos valeurs se rassemblent autour de la cohésion, l'expertise, l'indépendance et l'agilité.
+SECTOR est une PME d'ingénieurs pilotée par des ingénieurs. Nos process sont simples, nos circuits de décisions courts et notre management est proche, technique et bienveillant. Nous conjuguons croissance et bien-être de nos employés. L'équilibre entre vie professionnelle et vie personnelle fait partie des fondements du groupe.
+Nos services s'articulent autour des Etudes, Expertise, Conseil, Formation, Audit, R&D.
+Implantée en France, l'entreprise emploie 180 collaborateurs répartis sur 6 agences (IDF (siège), Lyon, Marseille, Toulouse, Nantes et Cherbourg-en-Cotentin). SECTOR est également présent au Canada et au Maroc.
+Nos métiers : Sûreté de Fonctionnement, Soutien Logistique Intégré, Cybersécurité, Sûreté Nucléaire, Ingénierie de Maintenance, Optimisation des performances, Gestion de Crise, Management des risques projets, PMO, FOH, Durabilité, Eco-conception, Etudes environnementales, Etudes de dangers.
+
+Votre rôle et vos enjeux :
+I. Réalisation d'études électroniques :
+- Comprendre le design de cartes électroniques (performances et défaillances)
+- Réaliser des études liées aux cartes électroniques (AMDEC, arbres de défaillances)
+- Savoir concevoir des schémas électroniques complexes et justifier le choix des composants
+- Savoir générer et exploiter les fichiers Gerbers (PCB et assemblage)
+II. Développement de l'activité électronique :
+- Identifier des axes d'améliorations du métier et du processus électronique
+- Participer à la rédaction des offres techniques en électronique
+III. Participation aux projets R&D électroniques :
+- Réaliser des sujets R&D sécuritaires
+- Travaux avec des experts en électronique
+- Veille technologique, élaboration de guides méthodologiques
+
+Et si c'était vous ?
+Vous êtes de formation ingénieur en électronique (électrique ou électrotechnique) avec des connaissances en Sûreté de Fonctionnement.
+Vous avez une expérience en électronique de minimum 3 ans en ayant déjà réalisé la conception de systèmes électroniques.
+Vous souhaitez évoluer dans un contexte technique à haut niveau d'expertise en électronique sécuritaire.
+Vous connaissez des normes de sécurité fonctionnelle (EN 50129, NF EN 61508, ISO 26262, ISO 13849).
+Vous connaissez les outils de sureté de fonctionnement : Arbre de défaillances, calcul de fiabilité, AMDEC composants.
+Vos compétences techniques :
+- Logiciel de CAO : Altium, Cadence, Zuken ou similaire
+- Simulation : LTSpice, PSpice
+- Sont appréciées les connaissances en mécanique et logiciel ainsi que les outils associés
+
+Ce qui vous attend chez Sector :
+- Un environnement stimulant : des projets variés, des technologies de pointe et un environnement de travail humain et convivial.
+- Un groupe reconnu : EcoVadis 2024, Groupement d'entreprises pour la fiabilité et la sécurité, Certification ISO 9001 2015, agrément EOQA
+- Un environnement propice à votre développement : une structure à taille humaine, attentive à ses collaborateurs et à leur bien-être.
+- Un accompagnement dans votre évolution : parcours d'intégration, parrainage, formations certifiantes et mobilité interne.
+- Un équilibre vie professionnelle / vie personnelle : 25 jours de congés, 12 RTT, jusqu'à 2 jours de télétravail par semaine.
+- Des avantages au quotidien : Carte restaurant de 9,80 € / jour (SWILE), chèques vacances, chèques cadeaux à Noël, .
+
+Votre parcours de recrutement :
+Si votre candidature est retenue, nous commencerons par un entretien avec l'un(e) de nos chargé(e) RH / ingénieur d'affaires, s'ensuivra un entretien technique avec le (la) référent(e) opérationnel(le).
