@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>CV Salim Ahmed MOURAD</title>
+<style>
+@page { size: A4; margin: 10mm 16mm 8mm 16mm; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 10.3pt; line-height: 1.26; color: #000; }
+header { text-align: center; margin-bottom: 5pt; }
+h1 { font-weight: 400; font-size: 23pt; color: #262626; line-height: 1.1; }
+.role { font-weight: 700; font-size: 12.2pt; color: #262626; margin-top: 2pt; }
+.contact { font-size: 10.3pt; color: #4a4a4a; margin-top: 1pt; }
+.contact a { color: #1F4E8C; text-decoration: none; }
+h2 { font-size: 11.6pt; font-weight: 700; color: #1F4E8C; text-transform: uppercase; border-bottom: 0.8pt solid #1F4E8C; padding-bottom: 1pt; margin: 7pt 0 3pt; letter-spacing: .1pt; }
+p { text-align: justify; }
+.row { display: flex; justify-content: space-between; gap: 10pt; }
+.sub { font-style: italic; }
+ul { list-style: none; margin: 1pt 0 2pt; }
+li { position: relative; padding-left: 22pt; text-align: justify; margin-bottom: 1pt; }
+li::before { content: "—"; position: absolute; left: 7pt; }
+.entry { margin-bottom: 2pt; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Salim Ahmed MOURAD</h1>
+  <div class="role">Ingénieur Test &amp; Validation – Essais CEM et Radio</div>
+  <div class="contact">Disponible immédiatement | Mobile toute la France | 07 53 42 30 52 | mouradsalimahmed@gmail.com</div>
+  <div class="contact">Portfolio : <a href="https://salim-mourad.github.io">salim-mourad.github.io</a>
+    | LinkedIn : <a href="https://www.linkedin.com/in/salim-ahmed-mourad-9a03b126a/">linkedin.com/in/salim-ahmed-mourad-9a03b126a</a></div>
+</header>
+
+<h2>Profil</h2>
+<p>Jeune diplômé ingénieur en Microélectronique et Télécommunications (Polytech Marseille). En stage, j’ai préparé et mené des campagnes d’essais CEM et radio de pré-certification CE/FCC : émissions, immunité rayonnée, ESD et mesures conduites, en chambre semi-anéchoïque. J’ai aussi automatisé les bancs de test en Python. Rigoureux dans la mise en place des set-up et l’analyse des non-conformités, je recherche un poste d’ingénieur test et validation ou CEM.</p>
+
+<h2>Formation</h2>
+
+<div class="row"><b>Diplôme d’Ingénieur - Microélectronique et Télécommunications</b><b>2023 – 2026</b></div>
+<div>Polytech Marseille</div>
+
+<div class="row"><b>Licence EEA (Électrotechnique, Électronique, Automatique)</b><b>2020 – 2023</b></div>
+<div>Aix-Marseille Université</div>
+
+
+<h2>Expérience professionnelle</h2>
+
+<div class="entry">
+  <div class="row"><b>Stage Ingénieur – Qualification Hardware : Essais Radio &amp; CEM</b><b>2026</b></div>
+  <div class="row sub"><span>Parrot Drones</span><span>(Paris)</span></div>
+  <ul>
+  
+    <li><b>Essais en chambre semi-anéchoïque :</b> mise en place des set-up et chaînes de mesure (générateur, amplificateur, coupleur, sondes, antennes) ; émissions rayonnées, ESD, immunité rayonnée (BAT-EMC).</li>
+  
+    <li><b>Mesures radio (2,4 et 5 GHz) :</b> mesures conduites sur 4 ports Wi-Fi (puissance, densité spectrale, bande occupée, émissions hors bande et parasites) selon EN 300 328, EN 301 893, EN 300 440 et FCC Part 15.</li>
+  
+    <li><b>Validation :</b> analyse des écarts et non-conformités, rédaction des rapports d’essais.</li>
+  
+    <li><b>Application Python d’automatisation des tests radio :</b> réécriture en POO avec une architecture MVC, pilotage du drone (ADB) et des instruments (SCPI/VISA), génération automatique des rapports Excel.</li>
+  
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="row"><b>Stage Ingénieur – Système Embarqué &amp; Véhicule Autonome</b><b>Mai – Juil. 2025</b></div>
+  <div class="row sub"><span>IM2NP</span><span>(Marseille)</span></div>
+  <ul>
+  
+    <li>Architecture électronique d’un véhicule autonome (NXP Cup) : S32K144, Debix Model A, capteurs/actionneurs, banc d’essai, algorithmes en C.</li>
+  
+  </ul>
+</div>
+
+
+<h2>Projets techniques</h2>
+<ul>
+
+  <li><b>Filtre passe-bande hyperfréquence (0,5 – 1,5 GHz) :</b> Tchebychev d’ordre 3 en microruban ; conception ADS, simulation Momentum, réalisation, mesure au VNA avec de-embedding, caractérisation du substrat.</li>
+
+  <li><b>Générateur de nombres aléatoires (ring oscillators) :</b> conception Cadence Virtuoso (layout, DRC/LVS), prototype discret, acquisition PIC18 et tests statistiques AIS31.</li>
+
+  <li><b>Microprocesseur RISC 8 bits :</b> description VHDL, simulation et banc de test, synthèse logique, placement-routage (flot ASIC).</li>
+
+  <li><b>Phasemètre analogique (100 Hz – 100 kHz) :</b> simulation LTspice, carte soudée (AOP, filtres, pont de Wien), mesures à l’oscilloscope.</li>
+
+</ul>
+
+<h2>Compétences techniques</h2>
+<ul>
+
+  <li><b>RF, hyperfréquences &amp; CEM :</b> HFSS, analyseur de spectre, générateur de signal, ADS, Momentum, VNA, récepteur CEM, amplificateur, coupleur, sonde de champ, sonde de puissance, BAT-EMC.</li>
+
+  <li><b>Normes :</b> EN 55032, EN 61000-4-2, EN 61000-4-3, EN 301 489, EN 300 328, EN 301 893, EN 300 440, FCC Part 15.</li>
+
+  <li><b>Microélectronique &amp; numérique :</b> Cadence Virtuoso, LTspice, TCAD Sentaurus, KiCad, VHDL, FPGA, ModelSim.</li>
+
+  <li><b>Embarqué, IA &amp; logiciel :</b> STM32, S32K144, PIC18, Raspberry Pi, Debix, Python, PyVISA, SCPI, Keras, TensorFlow Lite, C, Java, MATLAB, Linux.</li>
+
+</ul>
+
+<h2>Langues &amp; soft skills</h2>
+<ul>
+  <li><b>Langues :</b> Français (courant), Anglais (B2, documentation technique).</li>
+  <li><b>Soft skills :</b> rigueur, autonomie, esprit d’analyse, travail en équipe.</li>
+</ul>
+
+</body>
+</html>

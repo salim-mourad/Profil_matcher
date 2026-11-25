@@ -1,19 +1,7 @@
-import json
-import re
 from collections import Counter
 from pathlib import Path
 
-
-def contient(texte, mot):
-    """True si `mot` apparaît dans `texte` comme mot entier (majuscules ignorées)."""
-    motif = r"(?<!\w)" + re.escape(mot) + r"(?!\w)"
-    return re.search(motif, texte, re.IGNORECASE) is not None
-
-
-def charger(nom):
-    with open(nom, encoding="utf-8") as f:
-        return json.load(f)
-
+from outils import charger, mes_competences, mots_demandes, fabrique_poids
 
 # ------------------------------------------------------------
 # 1. Charger les données
@@ -22,46 +10,31 @@ profil = charger("profil.json")
 synonymes = charger("synonymes.json")
 referentiel = charger("referentiel.json")
 
-# Mes compétences (outils + mots-clés de tous les projets), sans doublons
-mes_mots = set()
-for projet in profil["projets"]:
-    mes_mots.update(projet["outils"])
-    mes_mots.update(projet["mots_cles"])
-
-# Toutes les compétences que l'on sait reconnaître = les miennes + celles du marché
+mes_mots = mes_competences(profil)
 vocabulaire = sorted(mes_mots | set(referentiel["competences_marche"]))
-
-# Poids : un mot générique compte peu, un mot technique compte pleinement
-generiques = set(referentiel["generiques"])
-def poids(mot):
-    return 0.2 if mot in generiques else 1.0
-
+poids = fabrique_poids(set(referentiel["generiques"]))
 
 # ------------------------------------------------------------
 # 2. Analyser chaque offre
 # ------------------------------------------------------------
 resultats = []
-demandes = Counter()          # combien d'offres demandent chaque compétence
+demandes = Counter()
 
 for fichier in sorted(Path("offres").glob("*.txt")):
     texte = fichier.read_text(encoding="utf-8")
     titre = texte.splitlines()[0]
 
-    # compétences demandées par l'offre (parmi celles qu'on sait reconnaître)
-    demande = [m for m in vocabulaire
-               if any(contient(texte, v) for v in synonymes.get(m, [m]))]
+    demande = mots_demandes(texte, vocabulaire, synonymes)
     demandes.update(demande)
 
     acquis = [m for m in demande if m in mes_mots]
     manquants = [m for m in demande if m not in mes_mots]
 
-    # score = part pondérée des compétences demandées que je possède
     total = sum(poids(m) for m in demande)
     score = 100 * sum(poids(m) for m in acquis) / total if total else 0
 
     resultats.append({"titre": titre, "fichier": fichier.name, "score": score,
                       "acquis": acquis, "manquants": manquants})
-
 
 # ------------------------------------------------------------
 # 3. Afficher le classement

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>CV {{ id.nom }}</title>
+<style>
+@page { size: A4; margin: 10mm 16mm 8mm 16mm; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 10.3pt; line-height: 1.26; color: #000; }
+header { text-align: center; margin-bottom: 5pt; }
+h1 { font-weight: 400; font-size: 23pt; color: #262626; line-height: 1.1; }
+.role { font-weight: 700; font-size: 12.2pt; color: #262626; margin-top: 2pt; }
+.contact { font-size: 10.3pt; color: #4a4a4a; margin-top: 1pt; }
+.contact a { color: #1F4E8C; text-decoration: none; }
+h2 { font-size: 11.6pt; font-weight: 700; color: #1F4E8C; text-transform: uppercase; border-bottom: 0.8pt solid #1F4E8C; padding-bottom: 1pt; margin: 7pt 0 3pt; letter-spacing: .1pt; }
+p { text-align: justify; }
+.row { display: flex; justify-content: space-between; gap: 10pt; }
+.sub { font-style: italic; }
+ul { list-style: none; margin: 1pt 0 2pt; }
+li { position: relative; padding-left: 22pt; text-align: justify; margin-bottom: 1pt; }
+li::before { content: "—"; position: absolute; left: 7pt; }
+.entry { margin-bottom: 2pt; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>{{ id.nom }}</h1>
+  <div class="role">{{ titre }}</div>
+  <div class="contact">{{ id.disponibilite }} | {{ id.mobilite }} | {{ id.telephone }} | {{ id.email }}</div>
+  <div class="contact">Portfolio : <a href="{{ id.portfolio }}">{{ id.portfolio | replace("https://", "") }}</a>
+    | LinkedIn : <a href="{{ id.linkedin }}">{{ id.linkedin | replace("https://www.", "") | trim("/") }}</a></div>
+</header>
+
+<h2>Profil</h2>
+<p>{{ accroche }}</p>
+
+<h2>Formation</h2>
+{% for f in formation %}
+<div class="row"><b>{{ f.diplome }}</b><b>{{ f.dates }}</b></div>
+<div>{{ f.ecole }}</div>
+{% endfor %}
+
+<h2>Expérience professionnelle</h2>
+{% for e in experiences %}
+<div class="entry">
+  <div class="row"><b>{{ e.poste }}</b><b>{{ e.dates }}</b></div>
+  <div class="row sub"><span>{{ e.entreprise }}</span><span>({{ e.lieu }})</span></div>
+  <ul>
+  {% for p in e.puces %}
+    <li>{% if p.titre %}<b>{{ p.titre }} :</b> {% endif %}{{ p.texte }}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+
+<h2>Projets techniques</h2>
+<ul>
+{% for p in projets %}
+  <li><b>{{ p.titre }} :</b> {{ p.texte }}</li>
+{% endfor %}
+</ul>
+
+<h2>Compétences techniques</h2>
+<ul>
+{% for c in competences %}
+  <li><b>{{ c.categorie }} :</b> {{ c.elements | join(", ") }}.</li>
+{% endfor %}
+</ul>
+
+<h2>Langues &amp; soft skills</h2>
+<ul>
+  <li><b>Langues :</b> {{ langues | join(", ") }}.</li>
+  <li><b>Soft skills :</b> {{ soft_skills | join(", ") }}.</li>
+</ul>
+
+</body>
+</html>

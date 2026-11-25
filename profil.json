@@ -1,42 +1,155 @@
 {
-  "nom": "Salim Ahmed MOURAD",
-  "disponible": true,
-  "langues": ["Français", "Anglais B2"],
+  "identite": {
+    "nom": "Salim Ahmed MOURAD",
+    "disponibilite": "Disponible immédiatement",
+    "mobilite": "Mobile toute la France",
+    "telephone": "07 53 42 30 52",
+    "email": "mouradsalimahmed@gmail.com",
+    "portfolio": "https://salim-mourad.github.io",
+    "linkedin": "https://www.linkedin.com/in/salim-ahmed-mourad-9a03b126a/"
+  },
+
+  "titres": [
+    {
+      "texte": "Ingénieur Électronique – Microélectronique, CEM, RF & Systèmes embarqués",
+      "mots_cles": []
+    },
+    {
+      "texte": "Ingénieur Test & Validation – Essais CEM et Radio",
+      "mots_cles": ["essais CEM", "essais radio", "immunité", "émissions rayonnées", "chambre semi-anéchoïque", "banc de test", "EN 55032", "EN 61000-4-2", "EN 61000-4-3", "rapports techniques"]
+    },
+    {
+      "texte": "Ingénieur Électronique RF & Hyperfréquences",
+      "mots_cles": ["RF", "hyperfréquences", "filtre", "VNA", "ADS", "HFSS", "analyseur de spectre", "générateur de signal", "amplificateur", "paramètres S"]
+    },
+    {
+      "texte": "Ingénieur Systèmes Embarqués & Automatisation de tests",
+      "mots_cles": ["systèmes embarqués", "microcontrôleur", "C", "Python", "automatisation", "banc de test", "Linux", "FPGA"]
+    }
+  ],
+
+  "accroches": [
+    {
+      "texte": "Jeune diplômé ingénieur en Microélectronique et Télécommunications (Polytech Marseille). En stage, j’ai mené des essais radio et CEM de pré-certification CE/FCC sur un drone et développé en Python une application d’automatisation des bancs de test. Mes projets couvrent toute la chaîne électronique : conception de circuits analogiques et numériques (Cadence, VHDL), hyperfréquences (ADS, VNA) et IA embarquée. Rigoureux et à l’aise dans l’analyse des écarts théorie/mesure, je recherche un poste d’ingénieur en électronique ou en test et validation.",
+      "mots_cles": []
+    },
+    {
+      "texte": "Jeune diplômé ingénieur en Microélectronique et Télécommunications (Polytech Marseille). En stage, j’ai préparé et mené des campagnes d’essais CEM et radio de pré-certification CE/FCC : émissions, immunité rayonnée, ESD et mesures conduites, en chambre semi-anéchoïque. J’ai aussi automatisé les bancs de test en Python. Rigoureux dans la mise en place des set-up et l’analyse des non-conformités, je recherche un poste d’ingénieur test et validation ou CEM.",
+      "mots_cles": ["essais CEM", "essais radio", "immunité", "émissions rayonnées", "chambre semi-anéchoïque", "banc de test", "rapports techniques"]
+    },
+    {
+      "texte": "Jeune diplômé ingénieur en Microélectronique et Télécommunications (Polytech Marseille). J’ai conçu, réalisé et mesuré au VNA un filtre passe-bande hyperfréquence (ADS, Momentum) et, en stage, mesuré les émissions Wi-Fi 2,4 et 5 GHz d’un drone à l’analyseur de spectre. À l’aise de la simulation à la mesure et dans l’analyse des écarts théorie/mesure, je recherche un poste d’ingénieur en électronique RF et hyperfréquences.",
+      "mots_cles": ["RF", "hyperfréquences", "filtre", "VNA", "ADS", "analyseur de spectre", "Wi-Fi", "paramètres S", "simulation"]
+    }
+  ],
+
+  "formation": [
+    {"diplome": "Diplôme d’Ingénieur - Microélectronique et Télécommunications", "ecole": "Polytech Marseille", "dates": "2023 – 2026"},
+    {"diplome": "Licence EEA (Électrotechnique, Électronique, Automatique)", "ecole": "Aix-Marseille Université", "dates": "2020 – 2023"}
+  ],
+
+  "experiences": [
+    {
+      "poste": "Stage Ingénieur – Qualification Hardware : Essais Radio & CEM",
+      "entreprise": "Parrot Drones",
+      "lieu": "Paris",
+      "dates": "2026",
+      "puces": [
+        {
+          "titre": "Mesures radio (2,4 et 5 GHz)",
+          "texte": "mesures conduites sur 4 ports Wi-Fi (puissance, densité spectrale, bande occupée, émissions hors bande et parasites) selon EN 300 328, EN 301 893, EN 300 440 et FCC Part 15.",
+          "outils": ["analyseur de spectre", "sonde de puissance"],
+          "mots_cles": ["essais radio", "RF", "Wi-Fi", "mesures", "EN 300 328", "EN 301 893", "EN 300 440", "FCC Part 15"]
+        },
+        {
+          "titre": "Essais en chambre semi-anéchoïque",
+          "texte": "mise en place des set-up et chaînes de mesure (générateur, amplificateur, coupleur, sondes, antennes) ; émissions rayonnées, ESD, immunité rayonnée (BAT-EMC).",
+          "outils": ["récepteur CEM", "générateur de signal", "amplificateur", "coupleur", "sonde de champ", "BAT-EMC"],
+          "mots_cles": ["essais CEM", "chambre semi-anéchoïque", "émissions rayonnées", "immunité", "EN 55032", "EN 61000-4-2", "EN 61000-4-3", "EN 301 489"]
+        },
+        {
+          "titre": "Application Python d’automatisation des tests radio",
+          "texte": "réécriture en POO avec une architecture MVC, pilotage du drone (ADB) et des instruments (SCPI/VISA), génération automatique des rapports Excel.",
+          "outils": ["Python", "NumPy", "PyVISA", "subprocess", "openpyxl", "matplotlib", "tkinter"],
+          "mots_cles": ["automatisation", "banc de test", "architecture MVC", "ADB", "programmation orientée objet", "SCPI"]
+        },
+        {
+          "titre": "Validation",
+          "texte": "analyse des écarts et non-conformités, rédaction des rapports d’essais.",
+          "outils": [],
+          "mots_cles": ["rapports techniques", "procédures de test"]
+        }
+      ]
+    },
+    {
+      "poste": "Stage Ingénieur – Système Embarqué & Véhicule Autonome",
+      "entreprise": "IM2NP",
+      "lieu": "Marseille",
+      "dates": "Mai – Juil. 2025",
+      "puces": [
+        {
+          "titre": "",
+          "texte": "Architecture électronique d’un véhicule autonome (NXP Cup) : S32K144, Debix Model A, capteurs/actionneurs, banc d’essai, algorithmes en C.",
+          "outils": ["S32K144", "Debix", "C"],
+          "mots_cles": ["systèmes embarqués", "microcontrôleur", "banc de test", "logiciel embarqué"]
+        }
+      ]
+    }
+  ],
+
   "projets": [
     {
-      "titre": "Filtre passe-bande hyperfréquence",
-      "outils": ["ADS", "Momentum", "VNA"],
-      "mots_cles": ["RF", "hyperfréquences", "microruban", "filtre", "Tchebychev", "de-embedding"]
-    },
-    {
-      "titre": "Reconnaissance d'images sur NPU",
+      "titre": "Reconnaissance d’images embarquée sur NPU",
+      "texte": "CNN entraîné sur CIFAR-10 (86 % de précision), quantification INT8 (TensorFlow Lite), déploiement sur carte Debix : 0,42 ms par image, flux vidéo 4K en temps réel.",
       "outils": ["Python", "TensorFlow Lite", "Keras", "Debix"],
-      "mots_cles": ["deep learning", "machine learning", "CNN", "CIFAR-10", "ReLU", "Adam", "inférence", "quantification", "IA embarquée"]
+      "mots_cles": ["deep learning", "machine learning", "CNN", "IA embarquée", "quantification", "inférence", "systèmes embarqués"]
     },
     {
-      "titre": "Générateur de nombres aléatoires",
+      "titre": "Filtre passe-bande hyperfréquence (0,5 – 1,5 GHz)",
+      "texte": "Tchebychev d’ordre 3 en microruban ; conception ADS, simulation Momentum, réalisation, mesure au VNA avec de-embedding, caractérisation du substrat.",
+      "outils": ["ADS", "Momentum", "VNA"],
+      "mots_cles": ["RF", "hyperfréquences", "filtre", "microruban", "paramètres S", "conception", "simulation", "mesures", "de-embedding"]
+    },
+    {
+      "titre": "Générateur de nombres aléatoires (ring oscillators)",
+      "texte": "conception Cadence Virtuoso (layout, DRC/LVS), prototype discret, acquisition PIC18 et tests statistiques AIS31.",
       "outils": ["Cadence Virtuoso", "PIC18"],
-      "mots_cles": ["oscillateur en anneau", "aléatoire", "DRC", "LVS", "layout", "conception", "simulation", "composants discrets", "AIS31"]
-    },
-    {
-      "titre": "Pré-certification CE et FCC",
-      "outils": ["analyseur de spectre", "récepteur CEM", "VNA", "générateur de signal", "amplificateur", "coupleur", "sonde de puissance", "sonde de champ", "BAT-EMC"],
-      "mots_cles": ["essais CEM", "essais radio", "chambre semi-anéchoïque", "EN 300 328", "EN 300 440", "EN 301 893", "EN 301 489", "EN 55032", "EN 61000-4-2", "EN 61000-4-3", "FCC Part 15"]
+      "mots_cles": ["oscillateurs", "layout", "DRC", "LVS", "conception", "simulation", "microcontrôleur", "AIS31"]
     },
     {
       "titre": "Microprocesseur RISC 8 bits",
+      "texte": "description VHDL, simulation et banc de test, synthèse logique, placement-routage (flot ASIC).",
       "outils": ["ModelSim", "Synopsys", "Cadence"],
-      "mots_cles": ["VHDL", "RTL", "synthèse", "placement", "routage", "flot ASIC"]
+      "mots_cles": ["VHDL", "RTL", "synthèse", "placement", "routage", "flot ASIC", "simulation", "conception"]
     },
     {
-      "titre": "Application d'automatisation de tests",
-      "outils": ["Python", "NumPy", "PyVISA", "subprocess", "openpyxl", "matplotlib", "tkinter"],
-      "mots_cles": ["architecture MVC", "ADB", "programmation orientée objet", "SCPI", "automatisation"]
-    },
-    {
-      "titre": "Phasemètre analogique",
+      "titre": "Phasemètre analogique (100 Hz – 100 kHz)",
+      "texte": "simulation LTspice, carte soudée (AOP, filtres, pont de Wien), mesures à l’oscilloscope.",
       "outils": ["LTspice", "oscilloscope"],
-      "mots_cles": ["électronique analogique", "amplificateur opérationnel", "filtres analogiques", "soudure", "mesures"]
+      "mots_cles": ["électronique analogique", "amplificateur opérationnel", "filtre", "soudure", "mesures", "simulation"]
     }
-  ]
+  ],
+
+  "competences": [
+    {
+      "categorie": "RF, hyperfréquences & CEM",
+      "elements": ["ADS", "Momentum", "HFSS", "VNA", "analyseur de spectre", "récepteur CEM", "générateur de signal", "amplificateur", "coupleur", "sonde de champ", "sonde de puissance", "BAT-EMC"]
+    },
+    {
+      "categorie": "Microélectronique & numérique",
+      "elements": ["Cadence Virtuoso", "LTspice", "TCAD Sentaurus", "KiCad", "VHDL", "FPGA", "ModelSim"]
+    },
+    {
+      "categorie": "Embarqué, IA & logiciel",
+      "elements": ["STM32", "S32K144", "PIC18", "Raspberry Pi", "Debix", "Python", "PyVISA", "SCPI", "Keras", "TensorFlow Lite", "C", "Java", "MATLAB", "Linux"]
+    },
+    {
+      "categorie": "Normes",
+      "elements": ["EN 55032", "EN 61000-4-2", "EN 61000-4-3", "EN 301 489", "EN 300 328", "EN 301 893", "EN 300 440", "FCC Part 15"]
+    }
+  ],
+
+  "langues": ["Français (courant)", "Anglais (B2, documentation technique)"],
+  "langues_mots_cles": ["anglais technique"],
+  "soft_skills": ["rigueur", "autonomie", "esprit d’analyse", "travail en équipe"]
 }

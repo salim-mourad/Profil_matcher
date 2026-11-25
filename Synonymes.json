@@ -146,5 +146,31 @@
   "procédures de test": [
     "procédures de test",
     "protocoles d'essai"
+  ],
+  "C": [
+    "langage C",
+    "C/C++",
+    "C++"
+  ],
+  "immunité": [
+    "immunité",
+    "immunités",
+    "susceptibilité"
+  ],
+  "émissions rayonnées": [
+    "émissions rayonnées",
+    "émission rayonnée",
+    "émissions rayonnées/conduites"
+  ],
+  "RF": [
+    "RF",
+    "radiofréquence",
+    "radiofréquences",
+    "radio-fréquence"
+  ],
+  "paramètres S": [
+    "paramètres S",
+    "paramètres-S",
+    "S-parameters"
   ]
 }
